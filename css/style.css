@@ -1200,7 +1200,11 @@ will-change: transform;
     font-size: 13px;
     line-height: 1.6;
 }
-
+.hobby-card:hover {
+    transform: translateY(-8px);
+    border-color: #168cff;
+    box-shadow: 0 10px 25px rgba(22, 140, 255, 0.20);
+}
 
 /* =========================================================
    CONTACT
